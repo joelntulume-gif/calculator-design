@@ -1,0 +1,10 @@
+.calculator{ padding-top: 60px;padding-left: 30px;padding-right: 30px; height: 500px;width:  400px; background-color: black;color: white;}
+.display{ background-color: gray;height: 100px;border-radius: 15px;margin: 20px;width: 340px;}
+button{background-color: gray;color: white; width: 50px;height: 50px;border-radius: 50%;border: none;}
+.zero{grid-column: span 2;border-radius: 40px;width: 180px;height: 50px;}
+.one{font-size: 60px;display: grid;grid-template-columns: repeat(4,1fr);gap: 15px; justify-content: center;}
+#AC{background-color: rgb(236, 232, 232);color: black;}
+#symbols{ background-color: rgb(202, 113, 11);color: rgb(240, 243, 243);}
+button:active{background-color: orange;}
+#symbols:active{background-color: lightblue;color: darkblue;}
+#AC:active{background-color: black;color: white;}
